@@ -4,4 +4,4 @@ This project is developed using Tuya SDK, which enables you to quickly develop b
 
 基于涂鸦平台的智能家居控制小程序
 
-![智能插座.png](http://ww1.sinaimg.cn/large/9f7d52ebgy1gpp67qnk4vj20a80padgz.jpg)
+![智能插座.png](http://ww1.sinaimg.cn/large/9f7d52ebgy1gpp7l2t3btj21hc0t6wj3.jpg)
