@@ -41,18 +41,9 @@
 </view> -->
 
 <image class="common-panel-backgroud" />
-<navbar device_name="智能插座" bind:jumpTodeviceEditPage="jumpTodeviceEditPage" />
-
-<!--顶部 大图标-->
-
-<view class='top_col'>
-	<view class='top_block'>
-    <image class="top_image" src='/image/socket.png'></image>
-    <view class="top_content">已开启</view>
-	</view>
-</view>
-
-<view class='bottom_col'>
+<navbar device_name="智能" bind:jumpTodeviceEditPage="jumpTodeviceEditPage" />
+<view class="content">
+  <view class='bottom_col'>
 	<view class='bottom'>
 		<image class="btimg" src='/image/switch_on.png'></image>
 		<view>开关</view>
@@ -70,6 +61,14 @@
 		<view>电量</view>
 	</view>
 </view>
+<view class="content-second">
+  <view class='top_col'>
+	<view class='top_block'>
+    <image class="top_image" src='/image/socket.png'></image>
+    <view class="top_content">已开启</view>
+	</view>
+</view>
+
 
 <view class='center_col'>
 	<view class='middle'>
@@ -84,4 +83,13 @@
     <view>电流</view>
     <view>0mA</view>
 	</view>
+</view>
+</view>
+</view>
+
+<view class="section__title">亮度</view>
+<view class="section section_gap">
+  <view class="body-view">
+      <slider bindchange="slider1change" left-icon="cancel" right-icon="success_no_circle"/>
+  </view>
 </view>
